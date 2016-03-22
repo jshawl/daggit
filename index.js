@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var util = require('util')
 var express = require("express");
 var app = express();
@@ -31,4 +33,6 @@ app.get("/:sha", function(req, res){
   res.render("index", {log: html, diff: diff})
 })
 
-app.listen(3000)
+app.listen(3000, function(){
+  console.log("listening on http://localhost:3000/")
+})

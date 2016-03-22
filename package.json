@@ -12,5 +12,8 @@
     "ansi-to-html": "^0.4.1",
     "express": "^4.13.4",
     "hbs": "^4.0.0"
+  },
+  "bin": {
+    "daggit": "./index.js"
   }
 }
