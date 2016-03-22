@@ -4,6 +4,8 @@ var util = require('util')
 var express = require("express");
 var app = express();
 app.set("view engine", "hbs")
+app.set('views', __dirname + '/views');
+
 var exec = require('child_process').execSync;
 var Convert = require('ansi-to-html');
 var convert = new Convert();
