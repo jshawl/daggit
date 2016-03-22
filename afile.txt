@@ -1,0 +1,8 @@
+total 24
+drwxr-xr-x   7 jesse  staff   238 Mar 22 10:51 ./
+drwxr-xr-x@ 39 jesse  staff  1326 Mar 22 10:13 ../
+drwxr-xr-x  12 jesse  staff   408 Mar 22 10:51 .git/
+-rw-r--r--   1 jesse  staff    13 Mar 22 10:14 .gitignore
+-rw-r--r--   1 jesse  staff     0 Mar 22 10:51 afile.txt
+-rw-r--r--   1 jesse  staff   155 Mar 22 10:43 index.js
+-rw-r--r--   1 jesse  staff   202 Mar 22 10:14 package.json
